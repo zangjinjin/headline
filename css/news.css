@@ -1,0 +1,294 @@
+*{margin:0;padding:0;}
+html{height:100%;width:100%;}
+body {
+    font: 16px/1.5 "方正兰亭纤黑","Lato Regular","Helvetica Neue",Helvetica,Tahoma,Arial,"Hiragino Sans GB","Microsoft YaHei",sans-serif;
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+    width:100%;
+	height:100%;
+	background-color:#ECECEC;
+}
+.fixed-bar{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:10;
+	background-color:#2e3542;
+}
+.slogan{
+	float:left;
+	margin:5px 0;
+	padding-left:76px;
+	color: #fff;
+	background:url("../imgs/logo.png") no-repeat 20px;
+	background-size:contain;
+}
+.slogan p:last-child{
+	font-size:12px;
+}
+.btn{
+	color: #fff;
+	background-color:#FF4C4C;
+	border-color:#FF4C4C;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+	text-decoration: none;
+	text-align:center;
+}
+.btn-share{
+	padding:6px 8px;
+	font-size: 14px;
+	float:right;
+	margin-top:10px;
+	margin-right:10px;
+}
+.close-btn{
+	width:20px;
+	height:20px;
+	background:url("../imgs/close.png") no-repeat;
+	background-size:contain;
+	float:right;
+	margin-top:15px;
+	margin-right:5%;
+}
+.news-content{
+	width:90%;
+	height:100%;
+	margin:15% auto 0;
+	padding:10px;
+}
+
+header .title{
+	font-size:24px;
+	font-weight:700;
+	font-family:"Microsoft YaHei";
+}
+header .sub-title{
+	margin:5px 0;
+	color:#999;
+	font-size:12px;
+}
+header .sub-title span{
+	margin-right:10px;
+}
+.imgDiv{
+	width: 100%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.imgDiv img{
+	width:100%;
+}
+.detail p{
+	margin-bottom:15px;
+	font-size:18px;
+	text-align: justify;
+	word-wrap: break-word;
+}
+
+.clear{
+	clear:both;
+}
+.vote{
+	width:100%;
+}
+.vote div{
+	width:45%;
+	padding:6px 0;
+	color:#b7b7b7;
+	-webkit-border-radius:3px;
+    -moz-border-radius:3px;
+    border-radius:3px;
+	text-decoration: none;
+	background-color:#fff;
+	text-align:center;
+	border:1px solid #ccc;
+}
+.supportDiv{
+	float:left;
+}
+.opposeDiv{
+	float:right;
+}
+.support{
+	background:url("../imgs/good.png") no-repeat;
+	background-size:contain;
+}
+.oppose{
+	background:url("../imgs/bad.png") no-repeat;
+	background-size:contain;
+}
+.vote div span{
+	margin-left:30px;
+}
+.comment{
+	margin:20px 0;
+	padding:10px;
+	background-color:#fff;
+	border:1px solid #ccc;
+}
+.comment h2{
+	padding-left:10px;
+	/**border-left:10px solid #00BB83;**/
+	font-size:20px;
+}
+.comment .comment-item{
+	margin:20px 0 10px;
+}
+.comment-item img{
+	float:left;
+	width:30px;
+	border-radius:15px;
+	
+}
+.comment-item .user{
+	width:85%;
+	border-bottom:1px dashed #c4c4c4;
+	float:left;
+	margin-left:10px;
+	padding:3px 0 10px;
+	font-size:14px;
+	color:#666666;
+}
+.user .ucomment{
+	font-size:16px;
+	color:#333333;
+	margin:10px 0;
+}
+.user .utime{
+	width:45%;
+	float:left;
+	text-decoration:none;
+	background: url(../imgs/time.png) no-repeat left center;
+	background-size:15px;
+}
+.user .favour{
+	float:right;
+	text-decoration:none;
+	margin-left:30px;
+	background: url(../imgs/favour.png) no-repeat left center;
+	background-size:15px;
+}
+.user span{
+	margin-left:22px;
+	color:#999;
+}
+.more-btn{
+	width:40%;
+	padding:10px 8px;
+	float:left;
+	text-align:left;
+	padding-left:20px;
+	background: url(../imgs/more.png) no-repeat 0 center;
+	background-size:cover;
+	font-size:20px;
+}
+.share-btn{
+	width:40%;
+	padding:10px 8px;
+	float:right;
+	font-size:20px;
+}
+.imgs-guide{
+	margin:20px 0;
+	padding-top:40px;
+}
+.imgs-guide div{
+	margin:0 auto;
+	text-align:center;
+}
+.imgs-guide .g1{
+	width:10%;
+}
+.imgs-guide .g2{
+	width:30%;
+	margin-top:-12px;
+}
+.imgs-guide img{
+	width:100%;
+}
+.doudou span{
+	color:#FF8624;
+	font-size:20px;
+}
+.cp{
+	color:#007BDB;
+	margin:0 auto;
+	text-align:center;
+}
+.publicityDiv{
+	width:98%;
+	margin:10px auto;
+}
+.publicityDiv img{
+	width:100%;
+}
+footer{
+	padding-bottom:20px;
+}
+footer p:last-child{
+	color:red;
+	margin-top:5px;
+}
+.panel{
+	display:none;
+	position:absolute;
+	width:100%;
+	height:100%;
+	top:0%;left:0%;
+	background:#000;
+	z-index:1001;
+	background:rgba(0,0,0,0.6);  
+    background:#000 9;/*CSS Hack,只能对ie9以下浏览器ie6,ie7,ie8有效，否侧ie10,FF,Cherome会失去透明效果*/  
+    filter:Alpha(opacity=60);
+}
+.imgsDiv{
+	width:85%;
+	margin:0 auto;
+	text-align:center;
+}
+.imgsDiv .word{
+	width:100%;	
+	
+}
+.circle{
+	margin-top:30%;
+	background: url(../imgs/circle.png) no-repeat;
+	background-size:100%;
+	z-index:1003;
+	color:#fff;
+}
+.imgsDiv p{
+	
+}
+.imgsDiv .p1{
+	font-size:30px;
+	padding-top:38%;
+}
+.makeDiv{
+	z-index:1005;
+	margin:10%;
+}
+.make-btn{
+	padding:15px;
+}
+.imgsDiv .p2{
+	padding-bottom:20%;
+}
+@media (device-height:480px) and (-webkit-min-device-pixel-ratio:2){/* iphone4/4s */
+	.imgsDiv .p1{
+		font-size:26px;
+	}
+	.make-btn{
+		padding:10px;
+	}
+}
+@media (device-height:568px) and (-webkit-min-device-pixel-ratio:2){/*iphone5 */
+	.imgsDiv .p1{
+		font-size:26px;
+	}
+	.make-btn{
+		padding:10px;
+	}
+
